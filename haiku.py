@@ -1,5 +1,5 @@
 print("Code dances in loops,")
 print("")
-print("Syntax weaves a digital tale,")
+print("Code weaves a digital tale,")
 print("")
 print("Programmer's heartbeat.")
