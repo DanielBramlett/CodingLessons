@@ -24,8 +24,25 @@ print(f"Hello, {person['First_Name']} {person['Last_Name']}. Since you are {pers
 print('')
 
 Index = 0
-people = [{'Name':'Henry Avery', 'Phone':'770-382-1659','Email':'AHenry@email.com'},{'Name':'Anne Bonney','Phone':'770-239-1697','Email':'ABonney@email.com'},{'Name':'Grace O\'Malley','Phone':'770-224-1530','Email':'GOmalley@email.com'}]
+person_one = {
+    'Name':'Henry Avery',
+    'Phone':'770-382-1659',
+    'Email':'AHenry@email.com'
+}
+person_two = {
+    'Name':'Anne Bonney',
+    'Phone':'770-239-1697',
+    'Email':'ABonney@email.com'
+}
+person_three = {
+    'Name':'Grace O\'Malley',
+    'Phone':'770-224-1530',
+    'Email':'GOmalley@email.com'
+}
 
-while Index < 3: 
-    print(f'{people[Index]}')
-    Index+=1
+people = [person_one,person_two,person_three]
+
+for dictionary in people:
+    for key in dictionary:
+        print(f"{key}: {dictionary[key]}")
+    print('')
