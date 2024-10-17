@@ -12,9 +12,9 @@ Math(6,9)
 #End 1
 print()
 
-#def Movie(title, genre, year):
-#    print(f'Title : {title}\nGenre : {genre}\nYear : {year}')
-#Movie('Mutiny on the Bounty','Historical Adventure Drama','1962')
+def Movie(title, genre, year):
+    print(f'Title : {title}\nGenre : {genre}\nYear : {year}')
+Movie('Mutiny on the Bounty','Historical Adventure Drama','1962')
 
 #End 2
 print()
